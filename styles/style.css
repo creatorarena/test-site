@@ -1,0 +1,48 @@
+html {
+    font-size: 30px;
+    font-family: 'Josefin Sans';
+    background-color: lightslategray;
+}
+
+body {
+    background-color: #00539F;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+    color: white;
+}
+
+.img_div img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 2px auto;
+    padding: 20px 0;
+    color: red;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+    background-color: lightblue;
+    text-shadow: red 5px 5px;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.before {
+    text-shadow: red 5px 5px;
+}
+
+a:hover {
+    color: red;
+}
