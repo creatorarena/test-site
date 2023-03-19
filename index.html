@@ -1,42 +1,59 @@
+<!-- prettier-ignore -->
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- <meta charset="utf-8"> -->
-        <meta charset="utf-8">
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-        <!-- <meta name="viewport" content="width=device-width, user-scalable=no"> -->
-        <title>My test page</title>
-        <link href="styles/style.css" rel="stylesheet" type="text/css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="id"></div><button class="loginBTN">login</button><button class="clearBTN">clear</button>
-        <h1>10L0</h1>
-        <div class="img_div">
-            <img src="assets/homeImage.jpg" width="320" alt="Tom and Jerry logo: DDabong">
-        </div>
-        <p>My cat is <strong>very</strong> grumpy</p>
+<html lang="ko">
+<head>
+    <!-- <meta charset="utf-8"> -->
+    <meta charset="utf-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <meta name="viewport" content="width=device-width, user-scalable=no"> -->
+    <title>My test page</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- 탭에 favicon 추가하기 -->
+    <link rel="shortcut icon" href="assets/favicon-16x16.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet" />
+    <meta name="description" content="Hello This is my Test Page for Studying HTML">
+</head>
 
-        <p>If you want change Image click here</p> <button class="imgChangerBTN">IMG change</button>
-        <!-- 4 heading levels: -->
-        <h2>My list</h2>
-        <p class="before"> before </p> <button class="beforeBTN" >click!</button>
-        <p>At Mozilla, we're a global community of technologists, thinkers, and builders working together</p>
-        <p class="before"> after </p>
-        At Mozilla we're a global community of <a href="https://www.mozilla.org/en-US/about/manifesto/" target="_blank">Mozilla manifesto</a>
-        <ul>
-            <li>technologists</li>
-            <li>thinkers
-                <ul>
-                    <li>park</li>
-                    <li>tae</li>
-                </ul>
-            </li>
-            <li>and builders</li>
-        </ul>
-        <p>working together</p>
-        <script src="src/main.js"></script>
-    </body>
+<body>
+    <div class="id"></div>
+    <button class="loginBTN">login</button><button class="clearBTN">clear</button>
+    <h1>10L0</h1>
+    <div class="img_div">
+        <img src="assets/homeImage.jpg" width="320" alt="Tom and Jerry logo: DDabong" />
+    </div>
+    <p>My cat is <strong>very</strong> grumpy</p>
+
+    <p>If you want change Image click here</p>
+    <button class="imgChangerBTN">IMG change</button>
+    <!-- 4 heading levels: -->
+    <h2>My list</h2>
+    <p class="before">before</p>
+    <button class="beforeBTN">click!</button>
+    <p>
+        At Mozilla, we're a global community of technologists, thinkers, and
+        builders working together
+    </p>
+    <p class="before">after</p>
+    At Mozilla we're a global community of
+    <a href="https://www.mozilla.org/en-US/about/manifesto/" target="_blank">Mozilla manifesto</a>
+    <div style="margin-top: 30px; margin-bottom:5px">
+        <button class="add-thinker">add thinker</button>
+    </div>
+    <ul style="margin-top: 0px;">
+        <li>technologists</li>
+        <li>
+            thinkers
+            <ul class="thinker-list">
+                <li>park</li>
+                <li>tae</li>
+            </ul>
+        </li>
+        <li>and builders</li>
+    </ul>
+    <p>working together</p>
+    <script src="src/main.js"></script>
+</body>
+
 </html>
